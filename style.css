@@ -1,0 +1,30 @@
+@media screen and (min-width: 375px) {
+    .omelette {
+        width: 375px;
+        height: 150px;
+        margin: 0px;
+        background-size: cover;
+    }
+    nav {
+       margin-left: 20px;
+       margin-right: 20px;
+    }
+
+    
+}
+
+
+@media screen and (min-width: 1440px) {
+
+}
+
+
+.preparation {
+     background-color: palevioletred;
+     border-radius: 10px;
+}
+.second-headline {
+    color: hsl(332, 51%, 32%);
+    margin-left: 20px;
+    
+}
