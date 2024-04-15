@@ -5,11 +5,9 @@
         margin: 0px;
         background-size: cover;
     }
-    nav {
-       margin-left: 20px;
-       margin-right: 20px;
-    }
-
+.nutrition {
+    display: flex;
+}
     
 }
 
@@ -20,11 +18,32 @@
 
 
 .preparation {
-     background-color: palevioletred;
+     background-color: #FFB6C1;
      border-radius: 10px;
 }
 .second-headline {
     color: hsl(332, 51%, 32%);
     margin-left: 20px;
     
+}
+
+body {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h2 {
+    color: hsl(14, 45%, 36%);
+}
+
+.kcal {
+    color: hsl(14, 45%, 36%);
+}
+
+.markers-instruction::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+.markers-ingredients::marker {
+    color: hsl(14, 45%, 36%);
 }
