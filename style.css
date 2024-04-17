@@ -1,23 +1,54 @@
 @media screen and (min-width: 375px) {
     .omelette {
-        width: 375px;
-        height: 150px;
-        margin: 0px;
-        background-size: cover;
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
     }
-.nutrition {
-    display: flex;
-}
-    
+    .kcal {
+        margin-left: 50px;
+    }
+    .kcal-2 {
+        margin-left: 65px;
+    }
+    .kcal-3 {
+        margin-left: 55px;
+    }
+    .kcal-4 {
+        margin-left: 80px;
+    }
 }
 
 
 @media screen and (min-width: 1440px) {
+    .omelette {
+    width: 1375px;
+    height: 550px;
+    margin-top: 35px;
+    border-radius: 20px;
+    
+    }
+
+    .kcal {
+        margin-left: 450px;
+    }
+    .kcal-2 {
+        margin-left: 465px;
+    }
+    .kcal-3 {
+        margin-left: 455px;
+    }
+    .kcal-4 {
+        margin-left: 480px;
+    }
 
 }
 
 
-
+hr {
+    border: none;
+    height: 1px;
+    background-color: #969696;
+}
 
 .preparation {
      background-color: #FFB6C1;
@@ -37,12 +68,12 @@
  display: flex;
  flex-direction: column;
  line-height: 150%;
- 
+}
+.compound {
+    list-style-type: none;
 }
 
-.kcal {
-    
-}
+
 
 .second-headline {
     color: hsl(332, 51%, 32%);
@@ -51,8 +82,8 @@
 }
 
 body {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 35px;
+    margin-right: 35px;
 }
 
 h2 {
