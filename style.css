@@ -17,10 +17,33 @@
 }
 
 
+
+
 .preparation {
      background-color: #FFB6C1;
      border-radius: 10px;
+     line-height: 150%; 
 }
+
+.ingredients {
+    line-height: 150%;
+}
+
+.instruction {
+    line-height: 150%;
+}
+
+.nutrition {
+ display: flex;
+ flex-direction: column;
+ line-height: 150%;
+ 
+}
+
+.kcal {
+    
+}
+
 .second-headline {
     color: hsl(332, 51%, 32%);
     margin-left: 20px;
