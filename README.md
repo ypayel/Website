@@ -30,8 +30,6 @@ This is a clean and responsive recipe website designed to present a single dish 
 
 ---
 
-## Author
-
 👤 Author
 
 Artsiom Kukankou
